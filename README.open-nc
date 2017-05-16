@@ -1,0 +1,7 @@
+This is a buildable Linux port of openbsd-netcat. Please note you might need
+a few things in order to make use of this:
+
+ gettext (0.19.3-2) 
+ diffstat (1.58-1) 
+ libbsd-dev (0.7.0-2)
+

@@ -1,0 +1,17 @@
+socks-b64-prototype.patch
+silence-z.patch
+glib-strlcpy.patch
+no-strtonum.patch
+pollhup.patch
+reuseaddr.patch
+connect-timeout.patch
+udp-scan-timeout.patch
+verbose-numeric-port.patch
+send-crlf.patch
+help-version-exit.patch
+quit-timer.patch
+getservbyname.patch
+gcc-warnings.patch
+verbose-message-to-stderr.patch
+netcat-info.patch
+dccp.patch

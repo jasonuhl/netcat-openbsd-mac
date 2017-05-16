@@ -1,0 +1,25 @@
+Source: netcat-openbsd
+Section: net
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Decklin Foster <decklin@red-bean.com>
+Standards-Version: 3.7.3
+Build-Depends: quilt, debhelper (>= 4.0.0), libglib2.0-dev
+
+Package: netcat-openbsd
+Architecture: any
+Depends: ${shlibs:Depends}
+Provides: netcat
+Conflicts: netcat (<< 1.10-35)
+Replaces: netcat (<< 1.10-35)
+Description: TCP/IP swiss army knife
+ A simple Unix utility which reads and writes data across network
+ connections using TCP or UDP protocol.  It is designed to be a reliable
+ "back-end" tool that can be used directly or easily driven by other
+ programs and scripts. At the same time it is a feature-rich network
+ debugging and exploration tool, since it can create almost any kind of
+ connection you would need and has several interesting built-in
+ capabilities.
+ .
+ This package contains the OpenBSD rewrite of netcat, including support
+ for IPv6, proxies, and Unix sockets.
